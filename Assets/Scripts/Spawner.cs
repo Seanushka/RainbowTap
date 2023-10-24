@@ -30,6 +30,6 @@ public class Spawner : MonoBehaviour
         Vector2 spawnPos = new Vector2(Random.Range(-2, 3), 4);
         
         Instantiate(cubes[Random.Range(0,4)],spawnPos,Quaternion.identity);
-        Debug.Log(spawnPos);
+        //Debug.Log(spawnPos);
     }
 }
