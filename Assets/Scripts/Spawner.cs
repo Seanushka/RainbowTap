@@ -8,13 +8,11 @@ public class Spawner : MonoBehaviour
     float timerReset;
     public GameObject[] cubes = new GameObject [4];
 
-    // Start is called before the first frame update
     void Start()
     {
         timerReset = timer;
     }
 
-    // Update is called once per frame
     void Update()
     {
         timer -= Time.deltaTime;
