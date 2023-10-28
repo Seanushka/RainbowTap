@@ -4,10 +4,10 @@
 TagManager:
   serializedVersion: 2
   tags:
-  - Blue
-  - Green
-  - Yellow
-  - Red
+  - Blue Piece
+  - Green Piece
+  - Yellow Piece
+  - Red Piece
   layers:
   - Default
   - TransparentFX

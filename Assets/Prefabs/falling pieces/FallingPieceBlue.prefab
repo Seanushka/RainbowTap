@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 2853057143769163703}
   m_Layer: 0
   m_Name: FallingPieceBlue
-  m_TagString: Blue
+  m_TagString: Blue Piece
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

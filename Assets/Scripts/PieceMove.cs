@@ -23,7 +23,7 @@ public class PieceMove : MonoBehaviour
             piecePos = this.gameObject.transform.position;
             piecePos = new Vector3(piecePos.x, piecePos.y- fallAmount, piecePos.z);
             this.gameObject.transform.position = piecePos;
-            Debug.Log(piecePos);
+            //Debug.Log(piecePos);
             timer = timerReset;
         }
     }

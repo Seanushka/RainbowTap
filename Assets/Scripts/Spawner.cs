@@ -8,13 +8,11 @@ public class Spawner : MonoBehaviour
     float timerReset;
     public GameObject[] cubes = new GameObject [4];
 
-    // Start is called before the first frame update
     void Start()
     {
         timerReset = timer;
     }
 
-    // Update is called once per frame
     void Update()
     {
         timer -= Time.deltaTime;
@@ -30,6 +28,6 @@ public class Spawner : MonoBehaviour
         Vector2 spawnPos = new Vector2(Random.Range(-2, 3), 4);
         
         Instantiate(cubes[Random.Range(0,4)],spawnPos,Quaternion.identity);
-        Debug.Log(spawnPos);
+        //Debug.Log(spawnPos);
     }
 }
