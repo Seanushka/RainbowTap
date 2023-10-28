@@ -113,6 +113,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 3427394840308278972}
     m_Modifications:
+    - target: {fileID: 663420238698212900, guid: e79acc1389b58414e82762e1d58a3e22, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 6323822348725156343, guid: 78e42e5776e24ea4ca7a56e3faaa5897, type: 3}
+    - target: {fileID: 663420238698212900, guid: e79acc1389b58414e82762e1d58a3e22, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: RedPress
+      objectReference: {fileID: 0}
     - target: {fileID: 3081770320691262456, guid: e79acc1389b58414e82762e1d58a3e22, type: 3}
       propertyPath: m_Name
       value: RedButton
@@ -299,6 +307,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8954791249095029820, guid: d964f005cc4791f4ab43818eb4eacd56, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 6323822348725156343, guid: 78e42e5776e24ea4ca7a56e3faaa5897, type: 3}
+    - target: {fileID: 8954791249095029820, guid: d964f005cc4791f4ab43818eb4eacd56, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: GreenPress
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -401,6 +417,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: BlueButton
       objectReference: {fileID: 0}
+    - target: {fileID: 4859249815358681826, guid: 83e9bbf4c823c0d46b43eaa55cda116d, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 6323822348725156343, guid: 78e42e5776e24ea4ca7a56e3faaa5897, type: 3}
+    - target: {fileID: 4859249815358681826, guid: 83e9bbf4c823c0d46b43eaa55cda116d, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: BluePress
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -502,6 +526,14 @@ PrefabInstance:
     - target: {fileID: 1459541828236485260, guid: d1a073b9a3e0cb8439be5109b56af259, type: 3}
       propertyPath: m_Name
       value: YellowButton
+      objectReference: {fileID: 0}
+    - target: {fileID: 6007245097764888683, guid: d1a073b9a3e0cb8439be5109b56af259, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 6323822348725156343, guid: 78e42e5776e24ea4ca7a56e3faaa5897, type: 3}
+    - target: {fileID: 6007245097764888683, guid: d1a073b9a3e0cb8439be5109b56af259, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: YellowPress
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
