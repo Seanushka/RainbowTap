@@ -471,6 +471,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1804553528237632849, guid: 565fe074ac3ca3648bd67ec6999c7069, type: 3}
+      propertyPath: volumeSlider
+      value: 
+      objectReference: {fileID: 0}
     - target: {fileID: 4657434092981322803, guid: 565fe074ac3ca3648bd67ec6999c7069, type: 3}
       propertyPath: m_Name
       value: pause menu

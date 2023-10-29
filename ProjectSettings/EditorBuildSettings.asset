@@ -12,4 +12,7 @@ EditorBuildSettings:
     path: Assets/Scenes/test bench ido.unity
     guid: 0da07a8cca9d9d345bc2a0fd14b804d5
   m_configObjects:
+    com.unity.adaptiveperformance.google.android.provider_settings: {fileID: 11400000, guid: b308473ba8925fc43aa0c0f41d73910a, type: 2}
+    com.unity.adaptiveperformance.loader_settings: {fileID: 11400000, guid: 4b5f16b260c533b4fa8ad6456d3e39f4, type: 2}
+    com.unity.adaptiveperformance.samsung.android.provider_settings: {fileID: 11400000, guid: 0ea91989ef4f1c940990885cfb7e34bd, type: 2}
     com.unity.adaptiveperformance.simulator.provider_settings: {fileID: 11400000, guid: 9a72a48f10759d14ab1dcd862984788c, type: 2}
