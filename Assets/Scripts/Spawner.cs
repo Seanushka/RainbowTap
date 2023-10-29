@@ -5,7 +5,7 @@ using UnityEngine;
 public class Spawner : MonoBehaviour
 {
     public float timer = 3f;
-    float timerReset;
+    public float timerReset;
     public GameObject[] cubes = new GameObject [4];
 
     void Start()
@@ -26,8 +26,6 @@ public class Spawner : MonoBehaviour
     void CubeSpawn()
     {
         Vector2 spawnPos = new Vector2(Random.Range(-2, 3), 4);
-        
         Instantiate(cubes[Random.Range(0,4)],spawnPos,Quaternion.identity);
-        //Debug.Log(spawnPos);
     }
 }

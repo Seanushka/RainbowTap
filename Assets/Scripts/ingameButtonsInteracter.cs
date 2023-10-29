@@ -69,7 +69,6 @@ public class ingameButtonsInteracter : MonoBehaviour
             {
                 Destroy(blueArray[0]);
                 score.Addscore();
-                Debug.Log("Blue");
             }
         }
         else
@@ -125,7 +124,6 @@ public class ingameButtonsInteracter : MonoBehaviour
             {
                 Destroy(greenArray[0]);
                 score.Addscore();
-                Debug.Log("Green");
             }
         }
         else
@@ -180,7 +178,6 @@ public class ingameButtonsInteracter : MonoBehaviour
             {
                 Destroy(redArray[0]);
                 score.Addscore();
-                Debug.Log("Red");
             }
         }
         else
@@ -235,7 +232,6 @@ public class ingameButtonsInteracter : MonoBehaviour
             {
                 Destroy(yellowArray[0]);
                 score.Addscore();
-                Debug.Log("Yellow");
             }
         }
         else

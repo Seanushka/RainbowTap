@@ -8,6 +8,7 @@ TagManager:
   - Green Piece
   - Yellow Piece
   - Red Piece
+  - scoreManager
   layers:
   - Default
   - TransparentFX
