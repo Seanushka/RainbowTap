@@ -60,7 +60,6 @@ public class ingameButtonsInteracter : MonoBehaviour
 
                 }
 
-                //Debug.Log(carryOver);
                 Destroy(blueArray[carryOver]);
                 score.Addscore();
 
@@ -114,8 +113,7 @@ public class ingameButtonsInteracter : MonoBehaviour
                     }
 
                 }
-
-                //Debug.Log(carryOver);
+          
                 Destroy(greenArray[carryOver]);
                 score.Addscore();
 
@@ -169,7 +167,6 @@ public class ingameButtonsInteracter : MonoBehaviour
 
                 }
 
-                //Debug.Log(carryOver);
                 Destroy(redArray[carryOver]);
                 score.Addscore();
 
@@ -223,7 +220,6 @@ public class ingameButtonsInteracter : MonoBehaviour
 
                 }
 
-                //Debug.Log(carryOver);
                 Destroy(yellowArray[carryOver]);
                 score.Addscore();
 
