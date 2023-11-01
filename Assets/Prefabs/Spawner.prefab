@@ -45,8 +45,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   timer: 3
+  timerReset: 0
   cubes:
-  - {fileID: 440450157402059605, guid: f99396df5343a964c885c6ac1a7bc58c, type: 3}
-  - {fileID: 4088153541189091411, guid: 0acece865f398e143a9618dd310ee3fd, type: 3}
-  - {fileID: 7397402896463149492, guid: a39053b927090994ab25ecdda4b69e48, type: 3}
-  - {fileID: 3763565880990498777, guid: 4b7c44cc99541224881efd560db040e0, type: 3}
+  - {fileID: 440450157402059605, guid: 4b37125224151ae47915fead1fbdf34e, type: 3}
+  - {fileID: 6046728425560625667, guid: 0acece865f398e143a9618dd310ee3fd, type: 3}
+  - {fileID: 3474516657452618329, guid: a39053b927090994ab25ecdda4b69e48, type: 3}
+  - {fileID: 2363149458667746976, guid: 4b7c44cc99541224881efd560db040e0, type: 3}
