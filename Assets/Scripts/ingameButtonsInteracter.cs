@@ -13,6 +13,8 @@ public class ingameButtonsInteracter : MonoBehaviour
     float[] posOfGreen = new float[20];
     GameObject[] yellowArray;
     float[] posOfYellow = new float[20];
+
+    public Score score;
     // Update is called once per frame
     void Update()
     {
@@ -55,17 +57,18 @@ public class ingameButtonsInteracter : MonoBehaviour
                     {
                         carryOver = i + 1;
                     }
-                    
+
                 }
 
                 //Debug.Log(carryOver);
                 Destroy(blueArray[carryOver]);
+                score.Addscore();
 
             }
             else
             {
                 Destroy(blueArray[0]);
-                Debug.Log("Blue");
+                score.Addscore();
             }
         }
         else
@@ -114,12 +117,13 @@ public class ingameButtonsInteracter : MonoBehaviour
 
                 //Debug.Log(carryOver);
                 Destroy(greenArray[carryOver]);
+                score.Addscore();
 
             }
             else
             {
                 Destroy(greenArray[0]);
-                Debug.Log("Green");
+                score.Addscore();
             }
         }
         else
@@ -167,12 +171,13 @@ public class ingameButtonsInteracter : MonoBehaviour
 
                 //Debug.Log(carryOver);
                 Destroy(redArray[carryOver]);
+                score.Addscore();
 
             }
             else
             {
                 Destroy(redArray[0]);
-                Debug.Log("Red");
+                score.Addscore();
             }
         }
         else
@@ -220,12 +225,13 @@ public class ingameButtonsInteracter : MonoBehaviour
 
                 //Debug.Log(carryOver);
                 Destroy(yellowArray[carryOver]);
+                score.Addscore();
 
             }
             else
             {
                 Destroy(yellowArray[0]);
-                Debug.Log("Yellow");
+                score.Addscore();
             }
         }
         else
