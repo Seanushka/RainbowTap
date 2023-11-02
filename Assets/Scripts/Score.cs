@@ -9,24 +9,21 @@ public class Score : MonoBehaviour
 {
     public TextMeshProUGUI score;
     public int scoreAmount;
-    public float SpeedUpTimer = 10f;
-    public float speedUpTimerReset;
     public float speedUpAmount = 1.1f;
+    private float countdownToSpeedUp;
 
     void Start()
     {
-        speedUpTimerReset = SpeedUpTimer;
-        SpeedUpTimer = -Time.unscaledDeltaTime;
         scoreAmount = 0;
     }
 
     void Update()
     {
-        Debug.Log(SpeedUpTimer);
-        if(SpeedUpTimer <= 0)
+        //Debug.Log("time scale is:" + Time.timeScale);
+        if (countdownToSpeedUp == 10)
         {
             Time.timeScale = Time.timeScale * speedUpAmount;
-            SpeedUpTimer = speedUpTimerReset;
+            countdownToSpeedUp = 0;
         }
         score.text = scoreAmount.ToString();
     }
@@ -34,6 +31,7 @@ public class Score : MonoBehaviour
     public void Addscore()
     {
         scoreAmount++;
+        countdownToSpeedUp++;
     }
 }
 
