@@ -25,7 +25,7 @@ public class Spawner : MonoBehaviour
 
     void CubeSpawn()
     {
-        Vector2 spawnPos = new Vector2(Random.Range(-2, 3), 4);
+        Vector2 spawnPos = new Vector2(Random.Range(-2, 3), 3.5f);
         Instantiate(cubes[Random.Range(0,4)],spawnPos,Quaternion.identity);
     }
 }
