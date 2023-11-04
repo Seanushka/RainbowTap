@@ -13,14 +13,16 @@ public class ingameButtonsInteracter : MonoBehaviour
     float[] posOfGreen = new float[20];
     GameObject[] yellowArray;
     float[] posOfYellow = new float[20];
-
+    public GameObject[] allPieces;
+    int placeToIncert = 0;
     public Score score;
     // Update is called once per frame
     void Update()
     {
-        
-
-
+        //Debug.Log(allPieces[0].name);
+        //Debug.Log(allPieces[1].name);
+        //Debug.Log(allPieces[2].name);
+        //Debug.Log(allPieces[3].name);
     }
 
     public void BluePress()
@@ -234,5 +236,21 @@ public class ingameButtonsInteracter : MonoBehaviour
         {
             Debug.Log("not found");
         }
+    }
+
+    public void AddToAllPieces(GameObject newPiece)
+    {
+
+        if(placeToIncert == 0)
+        {
+            allPieces[0] = newPiece;
+            placeToIncert = allPieces.Length;
+        }
+        else
+        {
+            allPieces[placeToIncert] = newPiece;
+            placeToIncert = allPieces.Length;
+        }
+        //Debug.Log(allPieces[0].name);
     }
 }

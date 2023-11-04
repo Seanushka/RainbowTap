@@ -7,6 +7,7 @@ public class Spawner : MonoBehaviour
     public float timer = 3f;
     public float timerReset;
     public GameObject[] cubes = new GameObject [4];
+    public int pieceName = 0;
 
     void Start()
     {
@@ -27,5 +28,6 @@ public class Spawner : MonoBehaviour
     {
         Vector2 spawnPos = new Vector2(Random.Range(-2, 3), 3.5f);
         Instantiate(cubes[Random.Range(0,4)],spawnPos,Quaternion.identity);
+        pieceName++;
     }
 }

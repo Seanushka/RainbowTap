@@ -10,10 +10,17 @@ public class PieceMove : MonoBehaviour
     public float timerReset; // the movment speed of every piece
     float fallAmount = 0.5f;
     Vector3 piecePos;
+    GameObject buttonManager;
+    GameObject me;
 
     void Start()
     {
+        me = this.gameObject;
         timerReset = timer;
+        me.name = FindObjectOfType<Spawner>().pieceName.ToString();
+        buttonManager = GameObject.Find("button manager");
+        Debug.Log(buttonManager.transform);
+        buttonManager.GetComponent<ingameButtonsInteracter>().AddToAllPieces(me);
     }
 
 
