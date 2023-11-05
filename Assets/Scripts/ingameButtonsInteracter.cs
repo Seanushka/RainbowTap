@@ -13,16 +13,15 @@ public class ingameButtonsInteracter : MonoBehaviour
     float[] posOfGreen = new float[20];
     GameObject[] yellowArray;
     float[] posOfYellow = new float[20];
-    public GameObject[] allPieces;
-    int placeToIncert = 0;
+    public PieceMove[] allPieces = new PieceMove[100];
+    float[] allPiecesY = new float[100];
     public Score score;
+    int toKill = 1;
+
     // Update is called once per frame
     void Update()
     {
-        //Debug.Log(allPieces[0].name);
-        //Debug.Log(allPieces[1].name);
-        //Debug.Log(allPieces[2].name);
-        //Debug.Log(allPieces[3].name);
+
     }
 
     public void BluePress()
@@ -62,14 +61,30 @@ public class ingameButtonsInteracter : MonoBehaviour
 
                 }
 
-                Destroy(blueArray[carryOver]);
-                score.Addscore();
+                if (blueArray[carryOver].gameObject.name == toKill.ToString())
+                {
+                    Destroy(blueArray[carryOver]);
+                    toKill++;
+                    score.Addscore();
+                }
+                else
+                {
+                    
+                }
 
             }
             else
             {
-                Destroy(blueArray[0]);
-                score.Addscore();
+                if (blueArray[0].gameObject.name == toKill.ToString())
+                {
+                    Destroy(blueArray[0]);
+                    toKill++;
+                    score.Addscore();
+                }
+                else
+                {
+                    
+                }
             }
         }
         else
@@ -115,15 +130,30 @@ public class ingameButtonsInteracter : MonoBehaviour
                     }
 
                 }
-          
-                Destroy(greenArray[carryOver]);
-                score.Addscore();
 
+                if (greenArray[carryOver].gameObject.name == toKill.ToString())
+                {
+                    Destroy(greenArray[carryOver]);
+                    toKill++;
+                    score.Addscore();
+                }
+                else
+                {
+                    
+                }
             }
             else
             {
-                Destroy(greenArray[0]);
-                score.Addscore();
+                if (greenArray[0].gameObject.name == toKill.ToString())
+                {
+                    Destroy(greenArray[0]);
+                    toKill++;
+                    score.Addscore();
+                }
+                else
+                {
+                    
+                }
             }
         }
         else
@@ -169,14 +199,29 @@ public class ingameButtonsInteracter : MonoBehaviour
 
                 }
 
-                Destroy(redArray[carryOver]);
-                score.Addscore();
-
+                if (redArray[carryOver].gameObject.name == toKill.ToString())
+                {
+                    Destroy(redArray[carryOver]);
+                    toKill++;
+                    score.Addscore();
+                }
+                else
+                {
+                    
+                }
             }
             else
             {
-                Destroy(redArray[0]);
-                score.Addscore();
+                if (redArray[0].gameObject.name == toKill.ToString())
+                {
+                    Destroy(redArray[0]);
+                    toKill++;
+                    score.Addscore();
+                }
+                else
+                {
+                    
+                }
             }
         }
         else
@@ -222,35 +267,34 @@ public class ingameButtonsInteracter : MonoBehaviour
 
                 }
 
-                Destroy(yellowArray[carryOver]);
-                score.Addscore();
-
+                if (yellowArray[carryOver].gameObject.name == toKill.ToString())
+                {
+                    Destroy(yellowArray[carryOver]);
+                    toKill++;
+                    score.Addscore();
+                }
+                else
+                {
+                    
+                }
             }
             else
             {
-                Destroy(yellowArray[0]);
-                score.Addscore();
+                if (yellowArray[0].gameObject.name == toKill.ToString())
+                {
+                    Destroy(yellowArray[0]);
+                    toKill++;
+                    score.Addscore();
+                }
+                else
+                {
+                    
+                }
             }
         }
         else
         {
             Debug.Log("not found");
         }
-    }
-
-    public void AddToAllPieces(GameObject newPiece)
-    {
-
-        if(placeToIncert == 0)
-        {
-            allPieces[0] = newPiece;
-            placeToIncert = allPieces.Length;
-        }
-        else
-        {
-            allPieces[placeToIncert] = newPiece;
-            placeToIncert = allPieces.Length;
-        }
-        //Debug.Log(allPieces[0].name);
     }
 }

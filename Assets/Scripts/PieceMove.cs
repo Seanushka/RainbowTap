@@ -7,10 +7,9 @@ using UnityEngine;
 public class PieceMove : MonoBehaviour
 {
     public float timer = 1.5f; 
-    public float timerReset; // the movment speed of every piece
+    public float timerReset; 
     float fallAmount = 0.5f;
     Vector3 piecePos;
-    GameObject buttonManager;
     GameObject me;
 
     void Start()
@@ -18,9 +17,6 @@ public class PieceMove : MonoBehaviour
         me = this.gameObject;
         timerReset = timer;
         me.name = FindObjectOfType<Spawner>().pieceName.ToString();
-        buttonManager = GameObject.Find("button manager");
-        Debug.Log(buttonManager.transform);
-        buttonManager.GetComponent<ingameButtonsInteracter>().AddToAllPieces(me);
     }
 
 

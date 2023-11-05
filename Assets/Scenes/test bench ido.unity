@@ -397,7 +397,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 561609250511331982, guid: 70b03d444a137c24c8b6765fdd818b2e, type: 3}
       propertyPath: speedUpAmount
-      value: 3
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 3366482543132202120, guid: 70b03d444a137c24c8b6765fdd818b2e, type: 3}
       propertyPath: m_Pivot.x
@@ -685,6 +685,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: IngameCanvas
       objectReference: {fileID: 0}
+    - target: {fileID: 2116947542106412004, guid: ef8a0161fa9825a4fafbab1329fcaef0, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2534028389384578646, guid: ef8a0161fa9825a4fafbab1329fcaef0, type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 2614387316269464608, guid: ef8a0161fa9825a4fafbab1329fcaef0, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
@@ -701,6 +709,10 @@ PrefabInstance:
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 5995790}
+    - target: {fileID: 3269246775731296763, guid: ef8a0161fa9825a4fafbab1329fcaef0, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: BluePress
+      objectReference: {fileID: 0}
     - target: {fileID: 3427394840308278972, guid: ef8a0161fa9825a4fafbab1329fcaef0, type: 3}
       propertyPath: m_Pivot.x
       value: 0
@@ -781,6 +793,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3737273823871177158, guid: ef8a0161fa9825a4fafbab1329fcaef0, type: 3}
+      propertyPath: m_IgnoreReversedGraphics
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -797,6 +813,10 @@ PrefabInstance:
     - target: {fileID: 340552741086544534, guid: 78e42e5776e24ea4ca7a56e3faaa5897, type: 3}
       propertyPath: m_Name
       value: button manager
+      objectReference: {fileID: 0}
+    - target: {fileID: 340552741086544534, guid: 78e42e5776e24ea4ca7a56e3faaa5897, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2038671650608098604, guid: 78e42e5776e24ea4ca7a56e3faaa5897, type: 3}
       propertyPath: m_LocalPosition.x
@@ -842,6 +862,10 @@ PrefabInstance:
       propertyPath: score
       value: 
       objectReference: {fileID: 1478251387}
+    - target: {fileID: 6323822348725156343, guid: 78e42e5776e24ea4ca7a56e3faaa5897, type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []

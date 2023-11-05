@@ -9,6 +9,7 @@ TagManager:
   - Yellow Piece
   - Red Piece
   - scoreManager
+  - Button Manager
   layers:
   - Default
   - TransparentFX

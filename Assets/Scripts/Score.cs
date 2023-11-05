@@ -19,7 +19,6 @@ public class Score : MonoBehaviour
 
     void Update()
     {
-        //Debug.Log("time scale is:" + Time.timeScale);
         if (countdownToSpeedUp == 10)
         {
             Time.timeScale = Time.timeScale * speedUpAmount;
