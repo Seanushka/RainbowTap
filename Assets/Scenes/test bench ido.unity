@@ -520,6 +520,10 @@ PrefabInstance:
     m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: 561609250511331982, guid: 70b03d444a137c24c8b6765fdd818b2e, type: 3}
+      propertyPath: highScore
+      value: 
+      objectReference: {fileID: 1770762660}
+    - target: {fileID: 561609250511331982, guid: 70b03d444a137c24c8b6765fdd818b2e, type: 3}
       propertyPath: SpeedUpTimer
       value: 10
       objectReference: {fileID: 0}
@@ -624,6 +628,11 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 70b03d444a137c24c8b6765fdd818b2e, type: 3}
+--- !u!1 &1368275853 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4970205516743131882, guid: ef8a0161fa9825a4fafbab1329fcaef0, type: 3}
+  m_PrefabInstance: {fileID: 7147323033075907776}
+  m_PrefabAsset: {fileID: 0}
 --- !u!114 &1478251387 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 561609250511331982, guid: 70b03d444a137c24c8b6765fdd818b2e, type: 3}
@@ -633,6 +642,17 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 9a851b91e26a652468081d803bcfc49b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &1770762660 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 4194363062550325553, guid: 45e11fb63ec8a6d42bf325693978745f, type: 3}
+  m_PrefabInstance: {fileID: 8771558608887803408}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1001 &2199354673954989509
@@ -724,12 +744,20 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1804553528237632849, guid: 565fe074ac3ca3648bd67ec6999c7069, type: 3}
+      propertyPath: pauseButton
+      value: 
+      objectReference: {fileID: 1368275853}
+    - target: {fileID: 1804553528237632849, guid: 565fe074ac3ca3648bd67ec6999c7069, type: 3}
       propertyPath: volumeSlider
       value: 
       objectReference: {fileID: 0}
     - target: {fileID: 4657434092981322803, guid: 565fe074ac3ca3648bd67ec6999c7069, type: 3}
       propertyPath: m_Name
       value: pause menu
+      objectReference: {fileID: 0}
+    - target: {fileID: 4657434092981322803, guid: 565fe074ac3ca3648bd67ec6999c7069, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []

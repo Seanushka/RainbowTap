@@ -383,5 +383,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pause: {fileID: 4657434092981322803}
+  pauseButton: {fileID: 0}
   MainMixer: {fileID: 24100000, guid: 2d373baed455ba54da98e5efb2a5e040, type: 2}
   volumeSlider: {fileID: 0}
