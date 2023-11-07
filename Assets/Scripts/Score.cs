@@ -12,6 +12,7 @@ public class Score : MonoBehaviour
     public int scoreAmount;
     public float speedUpAmount = 1.1f;
     private float countdownToSpeedUp;
+    float difVal = 10;
 
     void Start()
     {
@@ -21,12 +22,18 @@ public class Score : MonoBehaviour
 
     void Update()
     {
-        if (countdownToSpeedUp == 10)
+        if (countdownToSpeedUp == difVal)
         {
             Time.timeScale = Time.timeScale * speedUpAmount;
             countdownToSpeedUp = 0;
+            difVal = difVal + 5;
+            if(Time.timeScale < 15)
+            {
+                Time.timeScale = 14;
+                difVal = 10000;
+            }
         }
-        score.text = scoreAmount.ToString();
+        score.text = $"Score:" + scoreAmount.ToString();
     }
 
     public void Addscore()
