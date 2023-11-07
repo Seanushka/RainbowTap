@@ -747,6 +747,14 @@ PrefabInstance:
       propertyPath: highScore
       value: 
       objectReference: {fileID: 1770762660}
+    - target: {fileID: 3774677183163560187, guid: e3ab2e18e30502d40af5f2146daf03f1, type: 3}
+      propertyPath: speedUpAmount
+      value: 1.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 4706592432007061636, guid: e3ab2e18e30502d40af5f2146daf03f1, type: 3}
+      propertyPath: m_HorizontalAlignment
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
