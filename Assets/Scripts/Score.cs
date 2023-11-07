@@ -27,7 +27,7 @@ public class Score : MonoBehaviour
             Time.timeScale = Time.timeScale * speedUpAmount;
             countdownToSpeedUp = 0;
             difVal = difVal + 5;
-            if(Time.timeScale < 15)
+            if(Time.timeScale > 15)
             {
                 Time.timeScale = 14;
                 difVal = 10000;
