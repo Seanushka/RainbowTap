@@ -850,6 +850,10 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.y
       value: -10
       objectReference: {fileID: 0}
+    - target: {fileID: 1080447371794862445, guid: 17c21b9d903fc954e956c938782b0c4e, type: 3}
+      propertyPath: m_RenderMode
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 1439929346019766938, guid: 17c21b9d903fc954e956c938782b0c4e, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Target
       value: 
@@ -934,6 +938,22 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3128338945862325965, guid: 17c21b9d903fc954e956c938782b0c4e, type: 3}
+      propertyPath: m_fontSize
+      value: 70
+      objectReference: {fileID: 0}
+    - target: {fileID: 3128338945862325965, guid: 17c21b9d903fc954e956c938782b0c4e, type: 3}
+      propertyPath: m_margin.z
+      value: -188.97772
+      objectReference: {fileID: 0}
+    - target: {fileID: 3128338945862325965, guid: 17c21b9d903fc954e956c938782b0c4e, type: 3}
+      propertyPath: m_fontSizeBase
+      value: 70
+      objectReference: {fileID: 0}
+    - target: {fileID: 3128338945862325965, guid: 17c21b9d903fc954e956c938782b0c4e, type: 3}
+      propertyPath: m_HorizontalAlignment
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 3191001213019745706, guid: 17c21b9d903fc954e956c938782b0c4e, type: 3}
       propertyPath: m_AnchorMax.x
       value: 0
@@ -941,6 +961,10 @@ PrefabInstance:
     - target: {fileID: 3191001213019745706, guid: 17c21b9d903fc954e956c938782b0c4e, type: 3}
       propertyPath: m_AnchorMax.y
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3711641192020559078, guid: 17c21b9d903fc954e956c938782b0c4e, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: -85
       objectReference: {fileID: 0}
     - target: {fileID: 4137707405731262401, guid: 17c21b9d903fc954e956c938782b0c4e, type: 3}
       propertyPath: m_AnchorMax.x
